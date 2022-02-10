@@ -1,0 +1,504 @@
+/**
+ * 1.Main Content
+ */
+/* Main Content part Override   */
+/* .content-wrapper {
+    min-height: 100%;
+    background-color: #FAFAF9;
+    z-index: 1400;
+    margin-top: -50px;
+    position: inherit;
+    border-start-start-radius: 8px;
+    border-end-start-radius: 8px;
+}
+.logo-mini-profile-btn 
+{
+    display: none;
+}
+.logo-mini-Logout-btn
+{
+    display: none;
+}
+.content-header {
+    position: relative;
+    padding: 6px 0px 0 0px;
+}
+
+.page-title {
+    padding-left:22px;
+    color:#555555 !important;
+} */
+
+/* Bread Crumb */
+
+
+.breadcrumb {
+    padding: 7px 15px;
+    margin-bottom: 6px;
+    list-style: none;
+    background-color: #ecf0f5;
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+.breadcrumb li a {
+    font-size: 12px !important;
+    color:#555555 !important;
+    
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #B7B7B6;
+    content: ">";
+    font-weight: bold;
+}
+
+
+.breadcrumb li a:active {
+    color:#555555 !important;
+}
+/**
+ * 2.NavBar
+ */
+/* Height on logo at the navbar */
+/* .main-header .logo {
+    -webkit-transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    display: block;
+    float: left;
+    height: 95px;
+    font-size: 20px;
+    line-height: 112px;
+    padding-top:30px;
+    text-align: center;
+    width: 230px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 0 15px;
+    font-weight: 300;
+    overflow: hidden;
+} */
+
+/* Height right part at the navbar */
+
+/* .main-header .navbar {
+    -webkit-transition: margin-left .3s ease-in-out;
+    -o-transition: margin-left .3s ease-in-out;
+    transition: margin-left .3s ease-in-out;
+    margin-bottom: 0;
+    margin-left: 230px;
+    border: none;
+    min-height: 100px;
+    border-radius: 0;
+} */
+
+/* Background-color at the nav bar */
+/* .skin-blue .main-header .navbar {
+    background-color: linear-gradient(angle, color-stop1, color-stop2);
+    background: linear-gradient(#EFEFED, #9D9D9D);
+}
+.skin-blue .main-header .logo {
+    
+    background: linear-gradient(#EFEFED, #9D9D9D);
+    color: #fff;
+    border-bottom: 0 solid transparent;
+} */
+
+/* Font Color at the navbar */
+
+/* .skin-blue .main-header .navbar .sidebar-toggle {
+    color: #333332;
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #333332;
+} */
+
+
+/**
+ * 3. Left Side Bar
+ */
+/* Left Side Bar Top Padding change */
+/* .main-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 95px;
+    min-height: 100%;
+    width: 230px;
+    z-index: 810;
+    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+    transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #3398DC;
+}
+
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #3c8dbc;
+    border-left: 0px; 
+}*/
+/* Left Side Bar Menu font color */
+/* .skin-blue .sidebar a {
+    color: #F0F4F6;
+}
+
+.sidebar-menu>li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #F0F4F6;
+}
+
+.sidebar-menu>li>a {
+    padding: 10px 0px 10px 15px;
+    display: block;
+    font-size:12px;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 0px; 
+    background: #2c3b41;
+    padding-left: 10px;
+}
+
+
+.treeview-menu>li>a {
+    padding: 5px 5px 5px 15px;
+    display: block;
+    font-size: 12px;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: #383C45;
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 0px;
+    background: #9B9B9B;
+    padding-left: 10px;
+}
+
+.skin-blue .sidebar-menu .treeview-menu>li>a {
+    color: #F0F4F6; 
+    text-shadow: 1px 1px 1px black;
+} */
+/* 4. Footer  */
+/* .main-footer {
+    background: #3398DC;
+    padding: 15px;
+    color: #F0F4F6;
+    border-top: 0px;
+} */
+/* 2 bread crumb */
+.content-header {
+    position: relative;
+    padding: 0px 0px;
+}
+/* 3 main header bar */
+.skin-blue .main-header .navbar {
+    background-color: white;
+}
+.skin-blue .main-header .logo {
+    background-color:#111C54
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #323232;
+}
+/* 4. left side bar */
+.main-sidebar, .left-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0px;
+    min-height: 100%;
+    width: 230px;
+    z-index: 1031;
+    -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+    transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #111C54;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+    color: #fff;
+    background: #111C54;
+}
+/* 5. Datatable */
+
+
+.nav-tabs  > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    background: #EAEAE9 ;
+    border: 1px solid #DADADA ;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 10%);
+}
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 1px solid #DADADA ;
+}
+.dataTable>tbody>tr>td  {
+    padding: 3px;
+    
+    
+}
+.dataTables_wrapper {
+    
+    font-size: 12px;
+    /* width: 1000px; */
+    margin: 0 auto;
+}
+th { white-space: nowrap; }
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left !important;
+}
+
+.bottom {
+    display: flex !important;
+}
+
+.bottom .dataTables_length
+{
+    width: 40% !important;
+}
+
+.bottom .dataTables_paginate  {
+    width:60% !important;
+}
+
+table.dataTable {
+    table-layout: fixed;
+}
+
+.icon-xs {
+    font-weight: lighter !important;
+}
+
+@media (min-width: 768px){
+    .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .right-side, .sidebar-mini.sidebar-collapse .main-footer {
+        margin-left: 50px !important;
+        z-index: 1400;
+       
+    }
+    
+    
+    .logo-mini {
+        color:#ffffff !important;
+    }
+}
+@media (max-width: 768px) {
+
+    .content-wrapper {
+        min-height: 100%;
+        background-color: #FAFAF9;
+        z-index: 1400;
+        margin-top: 83px;
+        position: inherit;
+        /* border-radius: 20px; */
+        border-start-start-radius: 8px;
+        border-end-start-radius: 8px;
+    }
+
+    .main-header .logo {
+        -webkit-transition: width .3s ease-in-out;
+        -o-transition: width .3s ease-in-out;
+        transition: width .3s ease-in-out;
+        display: block;
+        float: left;
+        height: 95px;
+        font-size: 20px;
+        line-height: 112px;
+        padding-top: 30px;
+        text-align: center;
+        width: 100%;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding: 0 15px;
+        font-weight: 300;
+        overflow: hidden;
+    }
+    .main-header .navbar {
+        -webkit-transition: margin-left .3s ease-in-out;
+        -o-transition: margin-left .3s ease-in-out;
+        transition: margin-left .3s ease-in-out;
+        margin-bottom: 0;
+        margin-left: 230px;
+        border: none;
+        display: none;
+        min-height: 100px;
+        border-radius: 0;
+    }
+    
+    .logo .sidebar-toggle {
+        float: left;
+        background-color: transparent;
+        background-image: none;
+        padding: 15px 15px;
+        font-family: fontAwesome;
+        z-index: 9000;
+        /* margin-top: -117px; */
+        color: #444;
+        position: absolute;
+        top: -12px;
+        left: 0px;
+    }
+
+    .logo-lg img {
+        vertical-align: initial !important;
+        
+    }
+
+    .logo-mini-profile-btn 
+    {
+        display: block;
+        color: #444;
+        margin-top:10px;
+        margin-right:10px;
+    }
+    .logo-mini-Logout-btn
+    {
+        display: block;
+        color: #444;
+        margin-top:10px;
+    }
+    
+    
+}
+
+
+/*  Card */
+.select2-container--open {
+    z-index: 9999999
+}
+
+.pac-container {
+    background-color: #FFF;
+    z-index: 2000;
+    position: fixed;
+    display: inline-block;
+    float: left;
+}
+.modal{
+    z-index: 2000;   
+}
+.modal-backdrop{
+    z-index: 1000;        
+}​
+
+
+
+
+
+.tooltip > span {
+    width: 25em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: -85px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    position: absolute;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+  
+    z-index: 4000;
+}
+
+.tooltip:hover > span {
+    opacity: 1;
+    text-decoration: none;
+    visibility: visible;
+    overflow: visible;
+    margin-top: 50px;
+    display: inline;
+    margin-left: -260px;
+
+    position: absolute;
+    z-index: 100000;
+}
+
+
+/*  Resize Handle */
+.resize-handle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0;
+    width: 3px;
+    cursor: col-resize;
+  }
+   
+  .resize-handle:hover,
+  .header--being-resized .resize-handle {
+    opacity: 0.5;
+  }
+   
+  th:hover .resize-handle {
+    opacity: 0.3;
+  }
+
+  .footer-link {
+    color: #57A9E0 !important;
+  }
+
+  .flex {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .mt\:36 {
+      margin-top:36px;
+  }
+  
+  
+  
+  
+    .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .flex-1 {
+      flex:1;
+  }
+
+  .sidebar-collapse  .logo-lg {
+      display: none;
+  }
+
+  .sidebar-collapse  .logo {
+    display: none;
+  }
